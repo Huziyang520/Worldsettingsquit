@@ -1,0 +1,32 @@
+{
+    "schemaVersion": 1,
+    "id": "${mod_id}",
+    "version": "${version}",
+    "name": "${mod_name}",
+    "description": "${description}",
+    "authors": [
+        "${mod_author}"
+    ],
+    "contact": {
+        "homepage": "https://github.com/Huziyang520/Worldsettingsquit",
+        "issues": "https://github.com/Huziyang520/Worldsettingsquit/issues"
+    },
+    "license": "${license}",
+    "icon": "${mod_id}.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "com.huziyang520.worldsettingsquit.fabric.WorldSettingsQuitFabric"
+        ]
+    },
+    "mixins": [
+        "${mod_id}.mixins.json",
+        "${mod_id}.fabric.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${fabric_loader_version}",
+        "keenlib": ">=0.1.0",
+        "minecraft": "~${minecraft_version}",
+        "java": ">=${java_version}"
+    }
+}
