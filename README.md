@@ -1,4 +1,4 @@
-# 世界设置便携退出 (World Settings Quick Exit)
+# World Settings Quick Exit (世界设置便携退出)
 
 > Press ESC in the world options screen to apply changes and exit · Minecraft 26.3 · Fabric + NeoForge
 
@@ -29,8 +29,8 @@ When you open the **World Options** screen in a world and change a setting, vani
 
 Install **KeenLib** first, then put this mod's jar for your loader into the instance `mods` folder:
 
-- Fabric: `worldsettingsquit-0.2.2-fabric-26.3.jar`
-- NeoForge: `worldsettingsquit-0.2.2-neoforge-26.3.jar`
+- Fabric: `worldsettingsquit-0.2.3-fabric-26.3.jar`
+- NeoForge: `worldsettingsquit-0.2.3-neoforge-26.3.jar`
 
 ### Links
 
@@ -69,8 +69,8 @@ Released under the [MIT License](LICENSE), Copyright (c) 2026 Huziyang520.
 
 先安装前置库 **KeenLib**，再把本模组对应加载器端的 jar 放入实例 `mods` 目录：
 
-- Fabric：`worldsettingsquit-0.2.2-fabric-26.3.jar`
-- NeoForge：`worldsettingsquit-0.2.2-neoforge-26.3.jar`
+- Fabric：`worldsettingsquit-0.2.3-fabric-26.3.jar`
+- NeoForge：`worldsettingsquit-0.2.3-neoforge-26.3.jar`
 
 ### 链接
 
