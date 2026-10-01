@@ -42,7 +42,7 @@ neoForge {
 
 dependencies {
     // KeenLib 前置（编译期；运行期由实例 mods 目录提供）
-    compileOnly(rootProject.files("libs/keenlib-0.2.0-neoforge-${minecraft_version}.jar"))
+    compileOnly(rootProject.files("libs/keenlib-0.2.1-neoforge-${minecraft_version}.jar"))
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }

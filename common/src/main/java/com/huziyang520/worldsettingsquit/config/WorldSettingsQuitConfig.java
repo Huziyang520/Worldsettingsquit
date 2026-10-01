@@ -31,7 +31,8 @@ public final class WorldSettingsQuitConfig {
      * 未安装 Cloth Config 时调用同样安全（只是没有界面）。
      */
     public static void registerScreen() {
-        KeenConfigApi.business(Constants.MOD_ID, "World Settings Quick Exit")
+        KeenConfigApi.business(Constants.MOD_ID,
+                        KeenText.trans("gui.worldsettingsquit.title", "World Settings Quick Exit"))
                 .booleanToggle(KEY_ENABLED, true,
                         KeenText.trans("gui.worldsettingsquit.enabled", "Enable quick exit"),
                         KeenText.trans("gui.worldsettingsquit.enabled.tooltip",

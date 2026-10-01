@@ -1,0 +1,5 @@
+{
+  "gui.worldsettingsquit.title": "World Settings Quick Exit",
+  "gui.worldsettingsquit.enabled": "Enable quick exit",
+  "gui.worldsettingsquit.enabled.tooltip": "When off, ESC in the world options screen behaves like vanilla."
+}

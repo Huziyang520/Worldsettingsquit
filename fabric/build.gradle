@@ -7,7 +7,7 @@ dependencies {
     implementation("net.fabricmc:fabric-loader:${fabric_loader_version}")
     implementation("net.fabricmc.fabric-api:fabric-api:${fabric_version}")
     // KeenLib 前置（仅编译期解析 AutoSaveScreen 接口；运行期由实例 mods 目录提供）
-    compileOnly(rootProject.files("libs/keenlib-0.2.0-fabric-${minecraft_version}.jar"))
+    compileOnly(rootProject.files("libs/keenlib-0.2.1-fabric-${minecraft_version}.jar"))
 }
 
 loom {
