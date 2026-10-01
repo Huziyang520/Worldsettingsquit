@@ -1,6 +1,7 @@
 package com.huziyang520.worldsettingsquit.fabric;
 
 import com.huziyang520.worldsettingsquit.Constants;
+import com.huziyang520.worldsettingsquit.config.WorldSettingsQuitConfig;
 import net.fabricmc.api.ClientModInitializer;
 
 public class WorldSettingsQuitFabric implements ClientModInitializer {
@@ -9,5 +10,6 @@ public class WorldSettingsQuitFabric implements ClientModInitializer {
     public void onInitializeClient() {
 
         Constants.LOG.info("World Settings Quick Exit loaded: ESC in the world options screen applies changes and exits.");
+        WorldSettingsQuitConfig.registerScreen();
     }
 }

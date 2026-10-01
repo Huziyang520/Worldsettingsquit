@@ -2,6 +2,7 @@ package com.huziyang520.worldsettingsquit.mixin;
 
 import com.huziyang520.keenlib.gui.AutoSaveScreen;
 import com.huziyang520.worldsettingsquit.Constants;
+import com.huziyang520.worldsettingsquit.config.WorldSettingsQuitConfig;
 import net.minecraft.client.gui.components.PopupScreen;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.WorldOptionsScreen;
@@ -86,7 +87,7 @@ public abstract class MixinWorldOptionsScreen extends Screen implements AutoSave
 
     @Override
     public boolean keyPressed(KeyEvent event) {
-        if (event.isEscape()) {
+        if (event.isEscape() && WorldSettingsQuitConfig.enabled()) {
             if (this.keenlib$applyChanges()) {
                 this.onClose();
             }

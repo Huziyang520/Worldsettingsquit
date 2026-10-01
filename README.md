@@ -23,14 +23,14 @@ When you open the **World Options** screen in a world and change a setting, vani
 | Loaders | Fabric Loader `0.19.5` / NeoForge `26.3.0.1-beta` |
 | Java | 25 |
 | Side | Client only |
-| Dependency | **KeenLib ≥ 0.1.0** (required) |
+| Dependency | **KeenLib ≥ 0.2.0** (required) |
 
 ### Installation
 
 Install **KeenLib** first, then put this mod's jar for your loader into the instance `mods` folder:
 
-- Fabric: `worldsettingsquit-0.2.3-fabric-26.3.jar`
-- NeoForge: `worldsettingsquit-0.2.3-neoforge-26.3.jar`
+- Fabric: `worldsettingsquit-0.2.4-fabric-26.3.jar`
+- NeoForge: `worldsettingsquit-0.2.4-neoforge-26.3.jar`
 
 ### Links
 
@@ -63,14 +63,14 @@ Released under the [MIT License](LICENSE), Copyright (c) 2026 Huziyang520.
 | 加载器 | Fabric Loader `0.19.5` / NeoForge `26.3.0.1-beta` |
 | Java | 25 |
 | 运行环境 | 仅客户端 |
-| 前置依赖 | **KeenLib ≥ 0.1.0**（必需） |
+| 前置依赖 | **KeenLib ≥ 0.2.0**（必需） |
 
 ### 安装
 
 先安装前置库 **KeenLib**，再把本模组对应加载器端的 jar 放入实例 `mods` 目录：
 
-- Fabric：`worldsettingsquit-0.2.3-fabric-26.3.jar`
-- NeoForge：`worldsettingsquit-0.2.3-neoforge-26.3.jar`
+- Fabric：`worldsettingsquit-0.2.4-fabric-26.3.jar`
+- NeoForge：`worldsettingsquit-0.2.4-neoforge-26.3.jar`
 
 ### 链接
 

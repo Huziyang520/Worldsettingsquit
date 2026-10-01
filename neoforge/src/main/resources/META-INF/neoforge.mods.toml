@@ -22,7 +22,7 @@ side = "CLIENT"
 [[dependencies.${mod_id}]]
 modId = "keenlib"
 type = "required"
-versionRange = "[0.1.0,)"
+versionRange = "[0.2.0,)"
 ordering = "AFTER"
 side = "CLIENT"
 [[dependencies.${mod_id}]]
