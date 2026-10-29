@@ -1,5 +1,6 @@
 {
   "gui.worldsettingsquit.title": "世界设置便携退出",
   "gui.worldsettingsquit.enabled": "启用功能",
-  "gui.worldsettingsquit.enabled.tooltip": "关闭后，在世界设置界面按 ESC 将恢复原版行为。"
+  "gui.worldsettingsquit.enabled.tooltip": "关闭后，在世界设置界面按 ESC 将恢复原版行为。",
+  "modmenu.worldsettingsquit.backup": "备用反馈地址"
 }
