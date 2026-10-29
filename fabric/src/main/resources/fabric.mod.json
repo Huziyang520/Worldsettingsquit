@@ -8,7 +8,7 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://github.com/Huziyang520/Worldsettingsquit",
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/world-settings-quick-exit",
         "issues": "https://github.com/Huziyang520/Worldsettingsquit/issues"
     },
     "license": "${license}",
